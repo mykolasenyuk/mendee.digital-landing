@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from '../src/images/icons/Logo.svg'
+import './App.css'
+
+import AppBar from './components/AppBar/AppBar'
+import Background from './components/Background/Background'
+import Container from './components/Container/Container'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Container>
+        <AppBar />
+        <Background />
+      </Container>
     </div>
-  );
+    // <div className="App">
+    //   <AppBar />
+    //   <Container />
+    //   {/* <header className="App-header">
+    //     <div className="mendee-digital-logo">
+    //       <img src={logo} className="App-logo" alt="logo" />
+    //     </div>
+
+    //   </header> */}
+    // </div>
+  )
 }
 
-export default App;
+export default App
