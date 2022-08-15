@@ -4,15 +4,17 @@ import './App.css'
 import AppBar from './components/AppBar/AppBar'
 import Background from './components/Background/Background'
 import Container from './components/Container/Container'
+import LogoLoader from './components/Logoloader/Logoloader'
 
 function App() {
   return (
-    <div>
-      <Container>
+    <>
+      <Background>
         <AppBar />
-        <Background />
-      </Container>
-    </div>
+        <Container />
+        {/* <LogoLoader /> */}
+      </Background>
+    </>
     // <div className="App">
     //   <AppBar />
     //   <Container />
