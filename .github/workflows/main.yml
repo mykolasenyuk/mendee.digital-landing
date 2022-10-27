@@ -13,9 +13,7 @@ jobs:
         uses: fifsky/ssh-action@v0.0.6
         with:
           # Command to execute on the remote server.
-          command: 
-          - cd projects/mendee.digital-landing
-          - git pull origin master
+          command: cd projects/mendee.digital-landing && git pull origin master
           # Hostname or IP address of the server.
           host: 94.130.79.150
           # optional, default is localhost
