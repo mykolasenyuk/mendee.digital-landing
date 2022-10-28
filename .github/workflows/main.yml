@@ -30,7 +30,8 @@ jobs:
           # SSH parameters for example: -tt.
           #args: # optional
       - name: Npm commands
-         run: npm i
+        run: |
+          npm i
           # - npm : npm start
 
 
