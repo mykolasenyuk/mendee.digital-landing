@@ -29,7 +29,8 @@ jobs:
           #pass: # optional
           # SSH parameters for example: -tt.
           #args: # optional
-       - run : npm i
+      - name: Npm commands
+         run: npm i
           # - npm : npm start
 
 
